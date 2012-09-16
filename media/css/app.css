@@ -1,0 +1,258 @@
+/* Artfully masterminded by Kevin Xu <kevin@imkevinxu.com> */
+
+/* -----------------------------------------
+   SHARED Styles
+----------------------------------------- */
+
+.fl { float: left; }
+.fr { float: right; }
+.clear { clear: both; }
+.block { display: block; }
+.hidden { display: none; }
+.inline_block { display: inline-block; }
+.error { color: #c60f13; }
+
+/* -----------------------------------------
+   LOGIN Styles
+----------------------------------------- */
+
+#login {
+    margin-top: 20px;
+    padding: 20px 50px;
+    background-color: #E9E9E9;
+    border: 1px solid #C3C3C3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#login h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+#login li { list-style-type: none; }
+#login ul.errorlist {
+    color: red;
+    font-style: bold;
+}
+
+#login input[type=submit] {
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 50%;
+    left: -60px;
+}
+
+/* -----------------------------------------
+   BASE Styles
+----------------------------------------- */
+
+.body {
+    background-color:#542899;
+}
+
+#useraccounts:hover {
+    background-color:#000; 
+}
+
+.main-search-form{
+    width:70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main-search-form input{
+    width:90%;
+    float:left;
+
+}
+
+.main-search-form .searchglass {
+    float:left;
+    height:25px;
+    width:25px;
+    margin:0px 10px 0px 0px;
+
+}
+
+/*
+#filelist {
+background-color: #542899;
+}
+*/
+
+#divider {
+    background-color: #542899;
+    display:block;
+    height: 10px;
+}
+
+#main {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: white;
+}
+
+header {
+    padding: 10px;
+}
+
+header img {
+
+    height:25px
+}
+
+
+header #logo {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#right_nav a{
+    display:block;
+    float:left;
+    width:25px;
+    height:25px;
+    background-size: 25px 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+#right_nav a {
+padding: 20px;
+display:block;
+
+
+
+
+}
+#right_nav a.useraccounts{
+    background-image: url(/media/images/useraccounts.png);
+}
+
+#right_nav a.useraccounts:hover{
+    background-image: url(/media/images/useraccounts_onhover.png);
+}
+
+#right_nav a.upload{
+    background-image: url(/media/images/upload.png);
+}
+
+#right_nav a.upload:hover{
+    background-image: url(/media/images/upload_onhover.png);
+}
+
+#right_nav a.addfolder{
+    background-image: url(/media/images/addfolder.png);
+}
+
+#right_nav a.addfolder:hover{
+    background-image: url(/media/images/addfolder_onhover.png);
+}
+
+div#filelist ol > li{
+display: block;
+}
+
+div#filelist ol > li:hover{
+background: lightblue;
+}
+
+div#filelist a.googledrive {
+    display:block;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+}
+
+div#filelist a.dropbox {
+    display:block;
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+}
+
+div#filelist a.googledrive{
+background-image: url(/media/images/googledrive_grey.png);
+}
+
+div#filelist ol > li:hover a.googledrive{
+background-image: url(/media/images/googldrive.png);
+}
+
+div#filelist a.dropbox{
+background-image: url(/media/images/dropbox_grey.png);
+}
+div#filelist ol > li:hover a.dropbox{
+background-image: url(/media/images/dropbox.png);
+}
+
+div#filelist ol li ul li {
+display: inline;
+padding-right: 100px;
+}
+
+div#filelist ol li ul li img {
+width: 15px;
+
+
+}
+
+
+
+/*
+table#filestable a tr:hover {
+background:red;
+font-size: 20px;
+
+}
+
+*/
+
+.grid{ 
+    overflow: hidden; 
+}
+.block{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    float: left; min-height: 1px; 
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box; 
+      box-sizing: border-box; 
+  }
+
+  .block-20{
+    width:20%;
+  }
+
+  .block-50{
+    width:50%;
+  }
+
+  .block-30{
+    width:30%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END SPACING */

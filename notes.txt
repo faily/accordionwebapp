@@ -1,0 +1,3 @@
+# Accordion Notes
+# Automatically ignored by git to act like local notes
+# Remove from .gitignore to make project-wide notes
