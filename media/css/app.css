@@ -48,6 +48,10 @@
    BASE Styles
 ----------------------------------------- */
 
+.filelistheader {
+    background-color: #D1CFD3;
+}
+
 .body {
     background-color:#542899;
 }
