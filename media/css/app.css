@@ -53,7 +53,7 @@
 }
 
 .body {
-    background-color:#542899;
+    background: url(/media/images/background.png);
 }
 
 #useraccounts:hover {
@@ -87,9 +87,11 @@ background-color: #542899;
 */
 
 #divider {
-    background-color: #542899;
+    background: url('/media/images/background.png');
     display:block;
     height: 10px;
+    -webkit-box-shadow: 0px 10px 10px 0px #444;
+
 }
 
 #main {
@@ -120,12 +122,13 @@ header #logo {
 #right_nav a{
     display:block;
     float:left;
-    width:25px;
     height:25px;
     background-size: 25px 25px;
     background-position: center center;
     background-repeat: no-repeat;
 }
+
+
 
 
 #right_nav a {
@@ -165,7 +168,7 @@ display: block;
 }
 
 div#filelist ol > li:hover{
-background: lightblue;
+background: lightyellow;
 }
 
 div#filelist a.googledrive {
@@ -187,7 +190,7 @@ background-image: url(/media/images/googledrive_grey.png);
 }
 
 div#filelist ol > li:hover a.googledrive{
-background-image: url(/media/images/googldrive.png);
+background-image: url(/media/images/googledrive.png);
 }
 
 div#filelist a.dropbox{
@@ -245,6 +248,18 @@ font-size: 20px;
     width:30%;
   }
 
+
+#providers {
+    background-color: #fff
+}
+
+li#dropbox {
+    text-shadow: 0 1px 1px white;
+}
+
+#copyright {
+    background: #3f3f3f; color: #fff; padding: 5px 10px; margin-top: 0px;
+}
 
 
 

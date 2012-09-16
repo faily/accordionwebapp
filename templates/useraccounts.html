@@ -1,0 +1,37 @@
+{# Copy and Paste this for every html file. #}
+
+{% extends "base.html" %}
+{% block title %}{{ block.super }}{% endblock %}
+{% block meta_description %}{% endblock %}
+
+{% block extra_head %}{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="twelve columns">
+
+        <div id="divider">
+    </div>
+
+       Hello {{user}}!
+
+ <ul id="providers">
+    <li id="googledrive">
+        <h1>Google Drive</h1> 
+        <p>status</p>
+    </li>
+
+      <li id="dropbox">
+        <h1>Dropbox</h1>
+        <p>status</p>
+    </li>
+
+</ul>
+
+    </div>
+</div>
+
+{% endblock %}
+
+{% block javascript %}{% endblock %}

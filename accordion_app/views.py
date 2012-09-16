@@ -19,3 +19,5 @@ from accordion_app.forms import *
 #@login_required
 def index(request):
     return render(request, "index.html", locals())
+def useraccounts(request):
+    return render(request, "useraccounts.html", locals())
